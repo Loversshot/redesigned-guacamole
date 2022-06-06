@@ -1,0 +1,44 @@
+
+name: Test
+
+on:
+  workflow_dispatch:
+  
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: sleep 20
+      - run: cat 123.txt
+  buaild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: sleep 20
+      - run: cat 123.txt
+  buxild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: sleep 20
+      - run: cat 123.txt
+  builzd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: sleep 20
+      - run: cat 123.txt
+  builda:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: sleep 20
+      - run: cat 123.txt
+  buildd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: sleep 20
+      - run: cat 123.txt
